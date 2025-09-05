@@ -1,0 +1,5 @@
+Order #2 (Dine In): Heather 45 min
+Order #4 (To Go): Julia 60 min
+Order #5 (Dine In): Steven 75 min
+Order #3 (To Go): Olivia 85 min
+Order #1 (To Go): Kyle 100 min

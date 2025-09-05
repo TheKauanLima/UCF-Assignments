@@ -1,0 +1,11 @@
+10
+buy averyyyyyyybiiiiigvecownername 20
+find anotherbiiiiiiiiigvecownername
+use anotherbiiiiiiiiigvecownername 20
+height_balance
+use averyyyyyyybiiiiigvecownername 200
+find averyyyyyyybiiiiigvecownername
+buy averyyyyyyybiiiiigvecownername 50
+find averyyyyyyybiiiiigvecownername
+mean_tickets
+count_before averyyyyyyybiiiiigvecownername

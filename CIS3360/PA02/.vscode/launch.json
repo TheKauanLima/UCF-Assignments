@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "pa02",
+            "request": "launch",
+            "mainClass": "pa02",
+            "projectName": "PA02_b6bd0cbe",
+            "args": [
+                "in10A.txt",
+                "16"
+            ]
+        }
+    ]
+}

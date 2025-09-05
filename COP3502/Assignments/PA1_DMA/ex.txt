@@ -1,0 +1,399 @@
+4 3 1
+brazil 30
+neymar
+pele
+romario
+romarioa
+romariob
+romarioc
+romariod
+romarioe
+romariof
+romariog
+romarioh
+romarioi
+romarioj
+romariok
+romariol
+romariom
+romarion
+romarioo
+romariop
+romarioq
+romarior
+romarios
+romariot
+romariou
+romariov
+romariow
+romariox
+romarioy
+romarioz
+aromario
+argentina 29
+messi
+maradona
+batistuta
+messia
+messib
+messic
+messid
+messie
+messif
+messig
+messih
+messii
+messij
+messik
+messil
+messim
+messin
+messio
+messip
+messiq
+messir
+messis
+messit
+messiu
+messiv
+messiw
+messix
+messiy
+messiz
+portugal 30
+ronaldo
+figo
+silva
+fernandes
+ronaldoa
+ronaldob
+ronaldoc
+ronaldod
+ronaldoe
+ronaldof
+ronaldog
+ronaldoh
+ronaldoi
+ronaldoj
+ronaldok
+ronaldol
+ronaldom
+ronaldon
+ronaldoo
+ronaldop
+ronaldoq
+ronaldor
+ronaldos
+ronaldot
+ronaldou
+ronaldov
+ronaldow
+ronaldox
+ronaldoy
+ronaldoz
+mexico 29
+sanchez
+ochoa
+marquez
+sancheza
+sanchezb
+sanchezc
+sanchezd
+sancheze
+sanchezf
+sanchezg
+sanchezh
+sanchezi
+sanchezj
+sanchezk
+sanchezl
+sanchezm
+sanchezn
+sanchezo
+sanchezp
+sanchezq
+sanchezr
+sanchezs
+sanchezt
+sanchezu
+sanchezv
+sanchezw
+sanchezx
+sanchezy
+sanchezz
+brazil mexico
+pele 1
+neymar 2
+neymar 3
+sanchez 4
+pele 5
+sanchez 7
+sanchez 8
+sanchez 9
+sanchez 10
+sanchez 11
+sanchez 12
+sanchez 13
+sanchez 14
+sanchez 15
+sanchez 16
+sanchez 17
+sanchez 18
+sanchez 19
+sanchez 20
+sanchez 21
+sanchez 22
+sanchez 23
+sanchez 24
+sanchez 25
+sanchez 26
+sanchez 27
+sanchez 28
+sanchez 29
+sanchez 30
+sanchez 31
+sanchez 32
+sanchez 33
+sanchez 34
+sanchez 35
+sanchez 36
+sanchez 37
+sanchez 38
+sanchez 39
+sanchez 40
+sanchez 41
+sanchez 42
+sanchez 43
+sanchez 44
+sanchez 45
+sanchez 46
+sanchez 47
+sanchez 48
+sanchez 49
+sanchez 50
+sanchez 51
+sanchez 52
+sanchez 53
+sanchez 54
+sanchez 55
+sanchez 56
+sanchez 57
+sanchez 58
+sanchez 59
+sanchez 60
+sanchez 61
+sanchez 62
+sanchez 63
+sanchez 64
+sanchez 65
+sanchez 66
+sanchez 67
+sanchez 68
+sanchez 69
+sanchez 70
+sanchez 71
+sanchez 72
+sanchez 73
+sanchez 74
+sanchez 75
+sanchez 76
+sanchez 77
+sanchez 78
+sanchez 79
+sanchez 80
+sanchez 81
+sanchez 82
+sanchez 83
+sanchez 84
+sanchez 85
+sanchez 86
+sanchez 87
+sanchez 88
+sanchez 89
+sanchez 90
+end
+argentina portugal
+messi 1
+messi 2
+messi 3
+messi 4
+messi 5
+messi 6
+messi 7
+messi 8
+messi 9
+messi 10
+messi 11
+messi 12
+messi 13
+messi 14
+messi 15
+messi 16
+messi 17
+messi 18
+messi 19
+messi 20
+messi 21
+messi 22
+messi 23
+messi 24
+messi 25
+messi 26
+messi 27
+messi 28
+messi 29
+messi 30
+messi 31
+messi 32
+messi 33
+messi 34
+messi 35
+messi 36
+messi 37
+messi 38
+messi 39
+messi 40
+messi 41
+messi 42
+messi 43
+messi 44
+messi 45
+ronaldo 46
+ronaldo 47
+ronaldo 48
+ronaldo 49
+ronaldo 50
+ronaldo 51
+ronaldo 52
+ronaldo 53
+ronaldo 54
+ronaldo 55
+ronaldo 56
+ronaldo 57
+ronaldo 58
+ronaldo 59
+ronaldo 60
+ronaldo 61
+ronaldo 62
+ronaldo 63
+ronaldo 64
+ronaldo 65
+ronaldo 66
+ronaldo 67
+ronaldo 68
+ronaldo 69
+ronaldo 70
+ronaldo 71
+ronaldo 72
+ronaldo 73
+ronaldo 74
+ronaldo 75
+ronaldo 76
+ronaldo 77
+ronaldo 78
+ronaldo 79
+ronaldo 80
+ronaldo 81
+ronaldo 82
+ronaldo 83
+ronaldo 84
+ronaldo 85
+ronaldo 86
+ronaldo 87
+ronaldo 88
+ronaldo 89
+ronaldo 90
+end
+mexico portugal
+sancheza 1
+sanchezd 2
+sanchez 3
+sanchezc 4
+sanchezb 5
+sancheza 6
+sancheze 7
+sancheze 8
+sanchezd 9
+sanchez 10
+sancheza 11
+sanchezd 12
+sanchezc 13
+sanchezc 14
+sanchezd 15
+sancheze 16
+sancheze 17
+sanchezd 18
+sancheze 19
+sanchezb 20
+sanchezb 21
+sanchezb 22
+sanchezc 23
+sancheze 24
+sanchezd 25
+sancheze 26
+sancheza 27
+sancheze 28
+sanchezb 29
+sancheze 30
+sancheze 31
+sanchezd 32
+sancheza 33
+sanchezc 34
+sanchezc 35
+sanchezd 36
+sanchezc 37
+sancheza 38
+sanchezc 39
+sancheze 40
+sancheza 41
+sancheze 42
+sanchezb 43
+sanchezd 44
+sancheze 45
+sanchezb 46
+sanchezb 47
+sancheza 48
+sanchezd 49
+sancheza 50
+sanchezb 51
+sanchezc 52
+sanchezb 53
+sancheze 54
+sanchezb 55
+sanchezb 56
+sanchezc 57
+sancheze 58
+sanchezb 59
+sanchezb 60
+sancheza 61
+sanchezc 62
+sanchezb 63
+sancheza 64
+sanchezd 65
+sanchezb 66
+sancheza 67
+sanchezb 68
+sancheza 69
+sanchezd 70
+sanchezd 71
+sancheza 72
+sanchezb 73
+sanchezd 74
+sancheza 75
+sanchezc 76
+sanchezd 77
+sancheza 78
+sanchezd 79
+sanchezd 80
+sancheza 81
+sanchezc 82
+sancheza 83
+sanchezd 84
+sancheza 85
+sanchezc 86
+sanchezd 87
+sanchezd 88
+sanchezc 89
+sanchezc 90
+end
+max_goal_player

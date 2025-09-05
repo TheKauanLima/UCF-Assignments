@@ -1,0 +1,79 @@
+/**
+ * Purpose: Program to read a file of 2 children families and determine 
+ * 			how many families have either 2 boys, 2 girls, or both
+ * 
+ * @author KauanLima
+ * @version 8/13/2023
+ */
+import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
+public class Family
+{
+	
+	public static void main(String[] args)throws IOException
+	{
+		//program header
+		System.out.println("Composition statistics for families with two children.");
+		System.out.println();
+		
+		//start reading
+		//initialize variables and objects
+		int familyCounter;
+		int twoBoys = 0;
+		int twoGirls = 0;
+		int bothGirlAndBoy = 0;
+		int sampleCounter = 0;
+		String token = "";
+		File fileName = new File("familyMembers.txt");
+		Scanner inFile = new Scanner(fileName);
+		
+		//start loop that reads tokens
+		while( inFile.hasNext() )
+		{
+			//if there is another sample, replace token
+			token = inFile.next( );
+            
+            //check the number of a certain sample
+            if(token.equals("BB"))
+            	twoBoys++;
+            else if(token.equals("GG"))
+            	twoGirls++;
+            else if(token.equals("BG") || token.equals("GB"))
+            	bothGirlAndBoy++;
+            else
+            	continue;
+            
+            //increase the sample count after each iteration
+            sampleCounter++;
+		}
+		//close loop and file reading
+		inFile.close();
+		
+		familyCounter = sampleCounter;
+		
+		//run calculations
+		//initialize variables
+		double twoBoysPercent = ((double)twoBoys / sampleCounter);
+		double twoGirlsPercent = ((double)twoGirls / sampleCounter);
+		double bothGirlAndBoyPercent = ((double)bothGirlAndBoy / sampleCounter);
+		
+		double twoBoysRounded = Math.round(twoBoysPercent * 10000.0) / 100.0;
+		double twoGirlsRounded = Math.round(twoGirlsPercent * 10000.0) / 100.0;
+		double bothGirlAndBoyRounded = Math.round(bothGirlAndBoyPercent * 10000.0) / 100.0;
+		
+		//give results
+		System.out.println("Total number of families: " + familyCounter);
+		System.out.println();
+		
+		System.out.println("Number of families with");
+		System.out.println("\t  2 boys: " + twoBoys + " represents "
+				+ twoBoysRounded + "%");
+		
+		System.out.println("\t 2 girls: " + twoGirls + " represents "
+				+ twoGirlsRounded + "%");
+		
+		System.out.println("1 boy and 1 girl: " + bothGirlAndBoy + " represents "
+				+ bothGirlAndBoyRounded + "%");
+	}
+}

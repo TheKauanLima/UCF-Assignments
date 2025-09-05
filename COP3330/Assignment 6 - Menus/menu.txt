@@ -1,0 +1,6 @@
+5
+MainCourse,Burger,12.99
+Appetizer,Mozzarella Sticks,6.49
+Dessert,Cheesecake,7.99
+MainCourse,Pasta Alfredo,14.99
+Appetizer,Bruschetta,6.99

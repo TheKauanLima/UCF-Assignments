@@ -1,0 +1,15 @@
+HUDSON left the counter at time 150 from line 1.
+ADAM left the counter at time 250 from line 6.
+MATTHEW left the counter at time 660 from line 6.
+MOHAMMAD left the counter at time 1080 from line 1.
+ANEESHA left the counter at time 100550 from line 12.
+======
+AISHA left the counter at time 1120 from line 1.
+KEVIN left the counter at time 2080 from line 7.
+JEOVANI left the counter at time 3040 from line 8.
+JACOB left the counter at time 4010 from line 6.
+MIRAZIZ left the counter at time 4990 from line 5.
+ABRAHAM left the counter at time 5980 from line 4.
+MARIO left the counter at time 6980 from line 3.
+WILLIAM left the counter at time 7990 from line 2.
+======
