@@ -5,42 +5,48 @@
  */
 public class Mountain
 {
+    // O(n^2) approach
     public static int getMaxElevationBF(int[] arr)
     {
-        int lowest = arr[0];
-        int highest = arr[0];
+        // set up variables
+        int lowest = Integer.MAX_VALUE;
+        int highest = Integer.MIN_VALUE;
         int storedChange = 0;
         int elevationChange = 0;
+
+        // iterate through array
         for (int i = 1; i < arr.length - 1; i++)
         {
-            if (arr[i] < lowest)
-                lowest = arr[i];
-            for (int j = i; j < arr.length - 1; j++)
-            {
-                if (arr[j] > highest)
-                    highest = arr[j];
-            }
+            // find lowest and highest points
+            lowest = Math.min(lowest, arr[i]);
+            for (int j = i; j < arr.length; j++)
+                highest = Math.max(highest, arr[j]);
+
+            // calculate elevation change
             storedChange = elevationChange;
-            if (highest - lowest > storedChange)
-                elevationChange = highest - lowest;
+            elevationChange = Math.max(storedChange, highest - lowest);
+
+            // reset highest
             highest = 0;
         }
+
         return elevationChange;
     }
 
+    // O(n) approach
     public static int getMaxElevation(int[] arr)
     {
-        int lowest = arr[0];
-        int highest = arr[0];
+        // set up variables
+        int lowest = Integer.MAX_VALUE;
         int elevationChange = 0;
-        for (int i = 1; i < arr.length - 1; i++)
+
+        // iterate through array
+        for (int i = 1; i < arr.length; i++)
         {
-            if (arr[i] < lowest)
-                lowest = arr[i];
-            if (arr[i] > highest)
-                highest = arr[i];
-            elevationChange = highest - lowest;
-            highest = 0;
+            // evaluate elevationChange
+            elevationChange = Math.max(elevationChange, arr[i] - lowest);
+            // evaluate lowest
+            lowest = Math.min(lowest, arr[i]);
         }
 
         return elevationChange;

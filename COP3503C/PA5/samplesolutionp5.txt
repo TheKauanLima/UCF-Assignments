@@ -1,0 +1,98 @@
++------------------------ Test Case 1 ------------------------+
++++++++++++++ Initial MST +++++++++++++
+N8 - N10 | Cost: 10 | Visibility: 7
+Total Cost: 10
+
+*** ALERT: Node breached: N1 ***
+
++++++++++++++ Reconnected MST (after breach) +++++++++++++
+N8 - N10 | Cost: 10 | Visibility: 7
+New Total Cost: 10
++--------------------------------------------------------------------+
++------------------------ Test Case 2 ------------------------+
+No real nodes available for MST computation.
++--------------------------------------------------------------------+
++------------------------ Test Case 3 ------------------------+
++++++++++++++ Initial MST +++++++++++++
+N1 - N17 | Cost: 5 | Visibility: 4
+N1 - N19 | Cost: 5 | Visibility: 4
+N1 - N22 | Cost: 58 | Visibility: 3
+N13 - N17 | Cost: 76 | Visibility: 4
+Total Cost: 144
+
+*** ALERT: Node breached: N23 ***
+
++++++++++++++ Reconnected MST (after breach) +++++++++++++
+N1 - N17 | Cost: 5 | Visibility: 4
+N1 - N19 | Cost: 5 | Visibility: 4
+N1 - N22 | Cost: 58 | Visibility: 3
+N13 - N17 | Cost: 76 | Visibility: 4
+New Total Cost: 144
++--------------------------------------------------------------------+
++------------------------ Test Case 4 ------------------------+
++++++++++++++ Initial MST +++++++++++++
+N8 - N10 | Cost: 46 | Visibility: 3
+N10 - N11 | Cost: 60 | Visibility: 1
+N12 - N16 | Cost: 3 | Visibility: 4
+N16 - N35 | Cost: 94 | Visibility: 5
+N23 - N35 | Cost: 98 | Visibility: 4
+N27 - N29 | Cost: 79 | Visibility: 1
+Total Cost: 380
+
+*** ALERT: Node breached: N30 ***
+
++++++++++++++ Reconnected MST (after breach) +++++++++++++
+N8 - N10 | Cost: 46 | Visibility: 3
+N10 - N11 | Cost: 60 | Visibility: 1
+N12 - N16 | Cost: 3 | Visibility: 4
+N16 - N35 | Cost: 94 | Visibility: 5
+N23 - N35 | Cost: 98 | Visibility: 4
+N27 - N29 | Cost: 79 | Visibility: 1
+New Total Cost: 380
++--------------------------------------------------------------------+
++------------------------ Test Case 5 ------------------------+
++++++++++++++ Initial MST +++++++++++++
+N1 - N21 | Cost: 7 | Visibility: 1
+N1 - N22 | Cost: 45 | Visibility: 6
+N3 - N9 | Cost: 47 | Visibility: 2
+N3 - N19 | Cost: 8 | Visibility: 3
+N4 - N16 | Cost: 31 | Visibility: 4
+N4 - N19 | Cost: 54 | Visibility: 4
+N5 - N33 | Cost: 71 | Visibility: 4
+N7 - N33 | Cost: 56 | Visibility: 6
+N8 - N33 | Cost: 30 | Visibility: 5
+N9 - N33 | Cost: 15 | Visibility: 5
+N11 - N13 | Cost: 83 | Visibility: 1
+N11 - N20 | Cost: 32 | Visibility: 2
+N12 - N30 | Cost: 48 | Visibility: 2
+N12 - N34 | Cost: 78 | Visibility: 2
+N14 - N29 | Cost: 76 | Visibility: 3
+N15 - N16 | Cost: 81 | Visibility: 5
+N15 - N26 | Cost: 91 | Visibility: 4
+N15 - N32 | Cost: 43 | Visibility: 2
+N19 - N30 | Cost: 79 | Visibility: 3
+Total Cost: 975
+
+*** ALERT: Node breached: N7 ***
+
++++++++++++++ Reconnected MST (after breach) +++++++++++++
+N1 - N21 | Cost: 7 | Visibility: 1
+N1 - N22 | Cost: 45 | Visibility: 6
+N3 - N9 | Cost: 47 | Visibility: 2
+N3 - N19 | Cost: 8 | Visibility: 3
+N4 - N16 | Cost: 31 | Visibility: 4
+N4 - N19 | Cost: 54 | Visibility: 4
+N5 - N33 | Cost: 71 | Visibility: 4
+N8 - N33 | Cost: 30 | Visibility: 5
+N9 - N33 | Cost: 15 | Visibility: 5
+N11 - N13 | Cost: 83 | Visibility: 1
+N11 - N20 | Cost: 32 | Visibility: 2
+N12 - N30 | Cost: 48 | Visibility: 2
+N12 - N34 | Cost: 78 | Visibility: 2
+N14 - N29 | Cost: 76 | Visibility: 3
+N15 - N16 | Cost: 81 | Visibility: 5
+N15 - N26 | Cost: 91 | Visibility: 4
+N15 - N32 | Cost: 43 | Visibility: 2
+N19 - N30 | Cost: 79 | Visibility: 3
+New Total Cost: 919
++--------------------------------------------------------------------+
